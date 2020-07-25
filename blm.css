@@ -1,0 +1,17 @@
+.myStyle1{
+    background-color: yellow;
+    font-family: Avenir;
+    margin-left: 20%;
+    size: 50%;
+    margin-right: 20%;
+}
+.mapPic{
+    size: 100%;
+    margin-left: 20%;
+}
+.about{
+    background: green;
+    text-size: 100;
+    margin-right: 20%;
+    margin-left: 20%;
+}

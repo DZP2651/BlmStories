@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Black Lives Matter Stories</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="w3schools.css">
+    <link rel="stylesheet" href = "blm.css">
 </head>
 
 <body>
-    <h1 style = "background-color: yellow; font-family: Avenir">Mapping: Deaths</h1>
-    <img style = "text-align: center;" src = "http://ontheworldmap.com/usa/us-map-max.jpg">
-    <p style = "background-color: green"; text-size = 100> Police violence has been a drastic problem since the 1900s. Thousands of innocent people have had bad and traumatic experiences with the police  </p>
-    <button style = "color: blue; font-size: 100px"> About </button>
     <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
-    <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
-    <a href="#" class="w3-bar-item w3-button">Link 1</a>
-    <a href="#" class="w3-bar-item w3-button">Link 2</a>
-    <a href="#" class="w3-bar-item w3-button">Link 3</a>
-</div>
+        <button onclick="closeSideBar()" class="w3-bar-item w3-large">Close &times;</button>
+        <a href="#" class="w3-bar-item w3-button">About</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    </div>
+    <div class="w3-teal">
+        <button class="w3-button w3-teal w3-xlarge" onclick="openSideBar()">☰</button>
+        <div class="w3-container">
+            <h1>My Page</h1>
+        </div>
+    </div>
+    <h1 class = "myStyle1">Mapping: Deaths</h1>
+    <img class = "mapPic" src = "http://ontheworldmap.com/usa/us-map-max.jpg">
+    <h2 class = "myStyle1">About</h2>
+    <p class = "about"> Police violence has been a drastic problem since the 1900s. Thousands of innocent people have had bad and traumatic experiences with the police  </p>
+    <p class = "about">This is why I have created this website to help people learn more about the tragic stories and broadcast the brutality to the world.</p>
+    <script src = "script.js"></script>
 </body>
 </html>
