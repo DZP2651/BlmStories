@@ -7,7 +7,7 @@
     <link rel="stylesheet" href = "blm.css">
 </head>
 
-<body>
+<>
     <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
         <button onclick="closeSideBar()" class="w3-bar-item w3-large">Close &times;</button>
         <button href = "#" class = "w3-bar-item w3-button" type="button" onclick="alert('Hi user! Scroll down to see the about page!')">About</button>
@@ -25,7 +25,14 @@
     <img class = "mapPic" src = "http://ontheworldmap.com/usa/us-map-max.jpg">
     <pre></pre>
     <h2 class = "myStyle1">Record a story</h2>
-    <button style = "background-color: blue; size: 100; margin-right: 20%; margin-left: 20%;">Submit</button>
+    <form style = "margin-left: 20%; margin-right: 20%;"action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for= "story">Story</label>
+        <input style = "background-color: blue; size: 100;" type="submit" value="Submit">
+    </form>
     <pre></pre>
     <h2>About</h2>
     <p class = "about"> Police violence has been a drastic problem since the 1900s. Thousands of innocent people have had bad and traumatic experiences with the police.
